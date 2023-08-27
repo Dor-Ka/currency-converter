@@ -1,0 +1,9 @@
+.text--normal {
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+    color: hsl(0, 0%, 6%);
+    font-style: italic;
+}

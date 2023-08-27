@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/text.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="form  js-form">
+            <fieldset class="form__fieldset margin">
+                <legend class="form__legent">
+                    Przelicz walutę na PLN:
+                </legend>
+                <p>
+                    <label class="form__labellText">
+                        Waluta:
+                        <select class="form__field  form__field--smaller js-currency">
+                            <option>USD</option>
+                            <option>EUR</option>
+                            <option>CHF</option>
+                            <option>GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labellText">
+                            *Kwota:
+                            <input class="form__field  form__field--smaller js-amount" type="number"  step=0.01 min="0.01" required>
+                        </span>
+                    </label>
+                </p>
+                <p class="form__field form__field--star">
+                    * pole wymagane
+
+                </p>
+            </fieldset>
+            <p class="form__button">
+                <button class="form__button">Przelicz!</button>
+            </p>
+        </form>
+        <p class="text--normal">Otrzymasz:</p>
+        <p class="form__result"> <strong class="js-pln"> </strong> PLN</p>
+        <p class="text--normal">(na dzień: 2023-08-17)</p>
+    </div>
+
+</body>
+
+</html>
