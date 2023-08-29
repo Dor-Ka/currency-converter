@@ -28,4 +28,5 @@ formElement.addEventListener("submit", (event) => {
       break;
   }
   plnElement.innerText = pln.toFixed(2);
+  amountElement.value = "";
 });
