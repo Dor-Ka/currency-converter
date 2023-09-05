@@ -1,6 +1,6 @@
 .form__labelText {
     width: 100%;
-    max-width: 150px;
+    max-width: 400px;
     display: inline-block;
 }
 
@@ -10,7 +10,7 @@
     border-radius: 10px;
     padding: 5px;
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@
     border-radius: 10px;
     padding: 5px;
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     text-align: center;
     color: hsl(0, 0%, 40%);
     font-style: italic;
@@ -41,7 +41,7 @@
 .form__button {
     margin: 0 auto;
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     border: none;
     background-color: #ccc;
     border-radius: 10px;
@@ -59,7 +59,7 @@
 
 .form__legent {
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     padding: 5px;
     background-color: #ccc;
     border-radius: 10px;
@@ -72,8 +72,8 @@
     border-radius: 10px;
     padding: 5px;
     width: 100%;
-    max-width: 200px;
-    text-align: left;
+    max-width: 400px;
+    text-align: center;
     color: hsl(0, 3%, 12%);
     font-style: italic;
 }
