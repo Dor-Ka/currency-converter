@@ -1,5 +1,5 @@
 # currency-converter
-[link to the page](https://dorotakar.github.io/currency-converter/)
+[link to the page](https://dor-ka.github.io/currency-converter/)
 
 ![demo1](images/readme1.png)
 ![demo2](images/readme2.png)
